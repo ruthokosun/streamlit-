@@ -1,9 +1,9 @@
 matplotlib
 streamlit
-numpy==1.26.3
-pandas==2.1.4
-keras==2.10.0
-tensorflow==2.10.0
-yfinance==0.2.35
-scikit-learn==1.0.2
-pandas-datareader==0.10.0
+numpy
+pandas
+keras
+tensorflow
+yfinance
+scikit-learn
+pandas-datareader
