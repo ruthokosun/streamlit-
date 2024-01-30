@@ -6,4 +6,4 @@ tensorflow
 yfinance
 scikit-learn
 pandas-datareader
-matplotlib-inline
+matplotlib
