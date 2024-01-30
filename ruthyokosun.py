@@ -3,7 +3,7 @@ import subprocess
 import pkg_resources
 
 python = sys.executable
-    subprocess.check_call([python, '-m', 'pip', 'install', 'matplotlib'], stdout=subprocess.DEVNULL)
+subprocess.check_call([python, '-m', 'pip', 'install', 'matplotlib'], stdout=subprocess.DEVNULL)
 
 
 import streamlit as st
