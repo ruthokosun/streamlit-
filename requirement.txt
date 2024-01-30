@@ -1,9 +1,9 @@
 numpy
 pandas
-matplotlib
 streamlit
 keras
 tensorflow
 yfinance
 scikit-learn
 pandas-datareader
+matplotlib-inline
