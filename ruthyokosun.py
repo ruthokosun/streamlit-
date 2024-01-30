@@ -1,7 +1,15 @@
+import sys
+import subprocess
+import pkg_resources
+
+python = sys.executable
+    subprocess.check_call([python, '-m', 'pip', 'install', 'matplotlib'], stdout=subprocess.DEVNULL)
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 #import seaborn as sns
 #sns.set_style('whitegrid')
 plt.style.use("fivethirtyeight")
